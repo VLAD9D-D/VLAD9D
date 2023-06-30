@@ -335,19 +335,6 @@ h6 {
   width: 100%;
 }
 
-.header__button {
-  font-family: "Rubik Iso";
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 15px 50px;
-  border-radius: 5px;
-  background: #F59B00;
-  font-weight: 700;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
-
 .header-spollers {
   display: -ms-grid;
   display: grid;
@@ -1368,6 +1355,12 @@ button.swiper-pagination-bullet {
 
   .about-server__left {
     width: 100%;
+  }
+}
+
+@media (max-width: 534px) {
+  .header-spollers {
+    max-width: 100%;
   }
 }
 
