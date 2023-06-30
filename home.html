@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230630200550">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230630220954">
 	<link rel="shortcut icon" href="vlad.png">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -248,9 +248,21 @@
 				/* Блок з лічильником */
 				.fls-preloader__counter {
 					font-size: 8rem;
+
 					font-weight: 700;
 					color: #f1f1f1;
 				}
+
+				@media (max-width:767px) {
+					.fls-preloader__text {
+						font-size: 25px;
+					}
+
+					.fls-preloader__counter {
+						font-size: 5rem;
+					}
+				}
+
 
 				/* Прогресбар */
 				.fls-preloader__line {}
@@ -331,7 +343,7 @@
 			</script>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230630200550"></script>
+	<script src="js/app.min.js?_v=20230630220954"></script>
 </body>
 
 </html>
